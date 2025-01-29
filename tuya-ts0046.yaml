@@ -6,9 +6,8 @@ blueprint:
       name: TS0046 Switch
       description: Tuya 6-Button Scene Switch to use
       selector:
-        entity:
-          domain: sensor
-          integration: mqtt
+        device:
+          domain: mqtt
     button_1_single_press:
       name: Single Press - Button 1
       description: Action to run on button 1 single press
